@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>インターンシップ募集</title>
+    <link href="index.css" rel="stylesheet" />
+    <link href="internship.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <figure id="logo">
+        <img src="img/logo.png" alt="MUSESロゴ" />
+      </figure>
+      <div id="user_name"><img src="img/user_icon.png" alt="ユーザーアイコン" />武庫川　花子 さん</div>
+      <div id="upper_menu">
+        <div>
+          <img src="img/pc_site.png" alt="PCサイト" /><br />
+          PC版
+        </div>
+        <div>
+          <img src="img/timeout.png" alt="タイムアウト" /><br />
+          残り<br />約40分
+        </div>
+        <div>
+          <a href="login.html">
+            <img src="img/logout.png" alt="ログアウト" /><br />
+            ログアウト
+          </a>
+        </div>
+      </div>
+      <div id="news">
+        <div id="news_title"><img src="img/infoman.png" alt="新着情報" />新着情報</div>
+        <div id="news_num">
+          <img src="img/board.png" alt="掲示" />未読掲示が 3件 あります！
+        </div>
+      </div>
+      <div id="link">
+        <div><a href="index.html">HOME &gt;</a></div>
+        <div><a href="info.html">info@MUSES &gt;</a></div>
+        <div>インターンシップ募集 &gt;</div>
+      </div>
+    </header>
+
+    <main id="internship">
+      <div id="internship_header"><img src="img/search.png" alt="検索" />インターンシップ募集</div>
+      <div id="search">
+        <form id="search_form">
+          <input type="text" id="search_query" name="search_query" placeholder="キーワードで検索" />
+          <button type="submit">検索</button>
+        </form>
+      </div>
+      <div id="internship_list">
+        <div class="internship_record">
+          <div class="date">2024/05/30</div>
+          <div class="company">株式会社テック・ジャパン</div>
+          <div class="position">ソフトウェアエンジニア</div>
+          <div class="details"><a href="internship_detail.html?id=1">詳細を見る</a></div>
+        </div>
+        <div class="internship_record">
+          <div class="date">2024/05/25</div>
+          <div class="company">株式会社ビジネス・ソリューション</div>
+          <div class="position">マーケティングアシスタント</div>
+          <div class="details"><a href="internship_detail.html?id=2">詳細を見る</a></div>
+        </div>
+        <div class="internship_record">
+          <div class="date">2024/05/20</div>
+          <div class="company">グローバル・コンサルティング</div>
+          <div class="position">コンサルティングインターン</div>
+          <div class="details"><a href="internship_detail.html?id=3">詳細を見る</a></div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div id="link">
+        <div><a href="index.html">HOME &gt;</a></div>
+        <div><a href="info.html">info@MUSES &gt;</a></div>
+        <div>インターンシップ募集 &gt;</div>
+      </div>
+      <p>Information</p>
+      <div id="information"></div>
+    </footer>
+  </body>
+</html>
