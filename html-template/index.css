@@ -101,14 +101,13 @@ figure#logo {
   color: blue;
 }
 
-#link,
-#additional_links {
+#link_container {
   display: flex;
+  flex-wrap: wrap;
   gap: 1.5rem;
 }
 
-#link div,
-#additional_links div {
+#link_container div {
   width: fit-content;
   color:white;
   background-color: var(--bg-color);
@@ -116,8 +115,7 @@ figure#logo {
   margin-left: 0.5rem;
 }
 
-#link div a,
-#additional_links div a {
+#links_container div a{
   color: white;
   text-decoration: none;
   display: block;
