@@ -101,21 +101,23 @@ figure#logo {
   color: blue;
 }
 
-#link_container {
+#link,
+#additional_links {
   display: flex;
-  flex-wrap: wrap;
   gap: 1.5rem;
 }
 
-#link_container div {
+#link div,
+#additional_links div {
   width: fit-content;
-  color:white;
+  color: white;
   background-color: var(--bg-color);
   padding: 0.5rem 2rem;
   margin-left: 0.5rem;
 }
 
-#links_container div a{
+#link div a,
+#additional_links div a {
   color: white;
   text-decoration: none;
   display: block;
