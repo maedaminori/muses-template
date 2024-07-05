@@ -105,7 +105,12 @@ figure#logo {
 #additional_links {
   display: flex;
   gap: 1.5rem;
-  
+}
+
+#additional_links {
+  margin-top: 1.5em;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
 }
 
 #link div,
@@ -115,7 +120,6 @@ figure#logo {
   background-color: var(--bg-color);
   padding: 0.5rem 2rem;
   margin-left: 0.5rem;
- 
 }
 
 #link div a,
@@ -123,7 +127,6 @@ figure#logo {
   color: white;
   text-decoration: none;
   display: block;
-  ;
 }
 
 header p:last-child {
