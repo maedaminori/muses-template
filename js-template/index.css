@@ -101,12 +101,20 @@ figure#logo {
   color: blue;
 }
 
-#link {
+#link,
+#additional_links {
   display: flex;
   gap: 1.5rem;
 }
 
-#link div {
+#additional_links {
+  margin-top: 1.5em;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+}
+
+#link div,
+#additional_links div {
   width: fit-content;
   color: white;
   background-color: var(--bg-color);
@@ -114,7 +122,8 @@ figure#logo {
   margin-left: 0.5rem;
 }
 
-#link div a {
+#link div a,
+#additional_links div a {
   color: white;
   text-decoration: none;
   display: block;
